@@ -1,21 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sxy01\\Desktop\\Chris.IdentityServer4\\IdentityServer\\IdentityServer.csproj": {}
+    "D:\\Project\\Chris.IdentityServer4\\IdentityServer\\IdentityServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sxy01\\Desktop\\Chris.IdentityServer4\\IdentityServer\\IdentityServer.csproj": {
+    "D:\\Project\\Chris.IdentityServer4\\IdentityServer\\IdentityServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sxy01\\Desktop\\Chris.IdentityServer4\\IdentityServer\\IdentityServer.csproj",
+        "projectUniqueName": "D:\\Project\\Chris.IdentityServer4\\IdentityServer\\IdentityServer.csproj",
         "projectName": "IdentityServer",
-        "projectPath": "C:\\Users\\sxy01\\Desktop\\Chris.IdentityServer4\\IdentityServer\\IdentityServer.csproj",
+        "projectPath": "D:\\Project\\Chris.IdentityServer4\\IdentityServer\\IdentityServer.csproj",
         "packagesPath": "C:\\Users\\sxy01\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sxy01\\Desktop\\Chris.IdentityServer4\\IdentityServer\\obj\\",
+        "outputPath": "D:\\Project\\Chris.IdentityServer4\\IdentityServer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\sxy01\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -66,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
