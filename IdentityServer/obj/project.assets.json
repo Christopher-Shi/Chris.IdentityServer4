@@ -3717,11 +3717,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Chris.IdentityServer4\\IdentityServer\\IdentityServer.csproj",
+      "projectUniqueName": "C:\\Users\\sxy01\\Desktop\\Chris.IdentityServer4\\IdentityServer\\IdentityServer.csproj",
       "projectName": "IdentityServer",
-      "projectPath": "C:\\Projects\\Chris.IdentityServer4\\IdentityServer\\IdentityServer.csproj",
+      "projectPath": "C:\\Users\\sxy01\\Desktop\\Chris.IdentityServer4\\IdentityServer\\IdentityServer.csproj",
       "packagesPath": "C:\\Users\\sxy01\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Chris.IdentityServer4\\IdentityServer\\obj\\",
+      "outputPath": "C:\\Users\\sxy01\\Desktop\\Chris.IdentityServer4\\IdentityServer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sxy01\\AppData\\Roaming\\NuGet\\NuGet.Config",
