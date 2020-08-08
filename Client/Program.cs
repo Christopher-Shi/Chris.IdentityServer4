@@ -6,6 +6,9 @@ using Newtonsoft.Json.Linq;
 
 namespace Client
 {
+    /// <summary>
+    /// Protecting an API using Client Credentials 
+    /// </summary>
     class Program
     {
         static async Task Main(string[] args)
