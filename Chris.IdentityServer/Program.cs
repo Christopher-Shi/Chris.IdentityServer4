@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 using Serilog;
 
-namespace IdentityServer
+namespace Chris.IdentityServer
 {
     /// <summary>
     /// https://localhost:5001/.well-known/openid-configuration

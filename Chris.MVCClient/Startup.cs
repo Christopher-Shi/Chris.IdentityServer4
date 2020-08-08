@@ -1,5 +1,4 @@
 using System.IdentityModel.Tokens.Jwt;
-using IdentityModel;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;

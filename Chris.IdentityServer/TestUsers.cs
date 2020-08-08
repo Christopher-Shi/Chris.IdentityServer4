@@ -9,7 +9,7 @@ using IdentityModel;
 using IdentityServer4;
 using IdentityServer4.Test;
 
-namespace IdentityServer
+namespace Chris.IdentityServer
 {
     public class TestUsers
     {

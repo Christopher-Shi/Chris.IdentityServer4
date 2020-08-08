@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using IdentityModel.Client;
 using Newtonsoft.Json.Linq;
 
-namespace Client
+namespace Chris.Client
 {
     /// <summary>
     /// Protecting an API using Client Credentials 

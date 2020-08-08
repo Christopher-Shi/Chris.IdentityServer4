@@ -6,7 +6,7 @@ using IdentityServer4.Models;
 using System.Collections.Generic;
 using IdentityServer4;
 
-namespace IdentityServer
+namespace Chris.IdentityServer
 {
     public static class Config
     {
@@ -57,11 +57,6 @@ namespace IdentityServer
 
                     // where to redirect after logout
                     PostLogoutRedirectUris = { "https://localhost:5002/signout-callback-oidc" },
-
-                    //AlwaysIncludeUserClaimsInIdToken = true,
-
-                    //AllowOfflineAccess = true, // offline_access
-                    //AccessTokenLifetime = 60, // 60 seconds
 
                     AllowedScopes = new List<string>
                     {
