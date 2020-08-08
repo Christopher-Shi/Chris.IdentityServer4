@@ -14,7 +14,10 @@ namespace IdentityServer
             new IdentityResource[]
             {
                 new IdentityResources.OpenId(),
-                new IdentityResources.Profile()
+                new IdentityResources.Profile(),
+                new IdentityResources.Address(),
+                new IdentityResources.Phone(),
+                new IdentityResources.Email()
             };
 
         public static IEnumerable<ApiScope> ApiScopes =>
@@ -53,12 +56,21 @@ namespace IdentityServer
                     RedirectUris = { "https://localhost:5002/signin-oidc" },
 
                     // where to redirect after logout
-                    PostLogoutRedirectUris = { "https://localhost:5002/signin-oidc" },
+                    PostLogoutRedirectUris = { "https://localhost:5002/signout-callback-oidc" },
+
+                    //AlwaysIncludeUserClaimsInIdToken = true,
+
+                    //AllowOfflineAccess = true, // offline_access
+                    //AccessTokenLifetime = 60, // 60 seconds
 
                     AllowedScopes = new List<string>
                     {
+                        "api1",
                         IdentityServerConstants.StandardScopes.OpenId,
-                        IdentityServerConstants.StandardScopes.Profile
+                        IdentityServerConstants.StandardScopes.Profile,
+                        IdentityServerConstants.StandardScopes.Email,
+                        IdentityServerConstants.StandardScopes.Address,
+                        IdentityServerConstants.StandardScopes.Phone
                     }
                 },
             };

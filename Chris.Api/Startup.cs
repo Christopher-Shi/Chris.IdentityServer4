@@ -33,15 +33,6 @@ namespace Api
 
                     options.Audience = "api1";
                 });
-
-            //services.AddAuthorization(options =>
-            //{
-            //    options.AddPolicy("ApiScope", policy =>
-            //    {
-            //        policy.RequireAuthenticatedUser();
-            //        policy.RequireClaim("scope", "api1");
-            //    });
-            //});
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -61,9 +52,7 @@ namespace Api
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllers()
-                    //.RequireAuthorization("ApiScope")
-                    ; 
+                endpoints.MapControllers();
             });
         }
     }
