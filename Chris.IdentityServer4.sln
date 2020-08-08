@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chris.IdentityServer", "IdentityServer\Chris.IdentityServer.csproj", "{B357F943-C66E-4CDD-BC97-C1B873E17112}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chris.IdentityServer", "Chris.IdentityServer\Chris.IdentityServer.csproj", "{B357F943-C66E-4CDD-BC97-C1B873E17112}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chris.Api", "Api\Chris.Api.csproj", "{34E9B147-0FF3-4156-9C54-B161FBA80EF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chris.Api", "Chris.Api\Chris.Api.csproj", "{34E9B147-0FF3-4156-9C54-B161FBA80EF1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chris.Client", "Client\Chris.Client.csproj", "{CE2CF58A-82B2-4F08-80EB-D0AEC63E1222}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chris.Client", "Chris.Client\Chris.Client.csproj", "{CE2CF58A-82B2-4F08-80EB-D0AEC63E1222}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chris.MVCClient", "Chris.MVCClient\Chris.MVCClient.csproj", "{CCB74514-9B22-4F1D-A7A4-6053DC59CF13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,18 @@ Global
 		{CE2CF58A-82B2-4F08-80EB-D0AEC63E1222}.Release|x64.Build.0 = Release|Any CPU
 		{CE2CF58A-82B2-4F08-80EB-D0AEC63E1222}.Release|x86.ActiveCfg = Release|Any CPU
 		{CE2CF58A-82B2-4F08-80EB-D0AEC63E1222}.Release|x86.Build.0 = Release|Any CPU
+		{CCB74514-9B22-4F1D-A7A4-6053DC59CF13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCB74514-9B22-4F1D-A7A4-6053DC59CF13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCB74514-9B22-4F1D-A7A4-6053DC59CF13}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CCB74514-9B22-4F1D-A7A4-6053DC59CF13}.Debug|x64.Build.0 = Debug|Any CPU
+		{CCB74514-9B22-4F1D-A7A4-6053DC59CF13}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CCB74514-9B22-4F1D-A7A4-6053DC59CF13}.Debug|x86.Build.0 = Debug|Any CPU
+		{CCB74514-9B22-4F1D-A7A4-6053DC59CF13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCB74514-9B22-4F1D-A7A4-6053DC59CF13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCB74514-9B22-4F1D-A7A4-6053DC59CF13}.Release|x64.ActiveCfg = Release|Any CPU
+		{CCB74514-9B22-4F1D-A7A4-6053DC59CF13}.Release|x64.Build.0 = Release|Any CPU
+		{CCB74514-9B22-4F1D-A7A4-6053DC59CF13}.Release|x86.ActiveCfg = Release|Any CPU
+		{CCB74514-9B22-4F1D-A7A4-6053DC59CF13}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
