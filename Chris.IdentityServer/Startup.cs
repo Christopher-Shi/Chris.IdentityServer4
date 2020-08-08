@@ -25,10 +25,10 @@ namespace IdentityServer
                 .AddInMemoryIdentityResources(Config.IdentityResources)
                 .AddInMemoryApiScopes(Config.ApiScopes)
                 .AddInMemoryClients(Config.Clients)
-                .AddTestUsers(TestUsers.Users); 
+                .AddTestUsers(TestUsers.Users);
 
             builder.AddDeveloperSigningCredential();
-            services.AddControllers();
+            services.AddMvc();
         }
 
         public void Configure(IApplicationBuilder app)
