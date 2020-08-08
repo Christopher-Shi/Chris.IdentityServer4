@@ -3,7 +3,6 @@
 
 
 using Chris.IdentityServer.Quickstart.Consent;
-using IdentityServerHost.Quickstart.UI;
 
 namespace Chris.IdentityServer.Quickstart.Device
 {

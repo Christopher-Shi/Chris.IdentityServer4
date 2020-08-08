@@ -3,7 +3,6 @@
 
 
 using System.Collections.Generic;
-using IdentityServerHost.Quickstart.UI;
 
 namespace Chris.IdentityServer.Quickstart.Consent
 {
