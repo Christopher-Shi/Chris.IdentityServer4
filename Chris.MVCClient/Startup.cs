@@ -35,7 +35,11 @@ namespace Chris.MVCClient
                     options.ClientSecret = "secret";
                     options.ResponseType = "code";
 
+                    // ASP.NET Core will automatically store the resulting access and refresh token in the authentication session
+                    // You should be able to inspect the data on the page that prints out the contents of the session that you created earlier
                     options.SaveTokens = true;
+
+                    options.Scope.Add("api1");
                 });
 
             services.AddControllersWithViews();

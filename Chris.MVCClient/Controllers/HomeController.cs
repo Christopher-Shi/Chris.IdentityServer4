@@ -32,6 +32,7 @@ namespace Chris.MVCClient.Controllers
 
             var accessToken = await HttpContext.GetTokenAsync(OpenIdConnectParameterNames.AccessToken);
 
+            // For accessing the API using the access token, all you need to do is retrieve the token, and set it on your HttpClient
             client.SetBearerToken(accessToken);
             var response = await client.GetAsync("https://localhost:7001/identity");
             if (!response.IsSuccessStatusCode)

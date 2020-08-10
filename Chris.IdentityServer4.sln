@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chris.Client", "Chris.Clien
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chris.MVCClient", "Chris.MVCClient\Chris.MVCClient.csproj", "{CCB74514-9B22-4F1D-A7A4-6053DC59CF13}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chris.EFIdentityServer", "Chris.EFIdentityServer\Chris.EFIdentityServer.csproj", "{7D6700EA-4DEA-4B6F-ADC2-5AE9F27E1959}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,18 @@ Global
 		{CCB74514-9B22-4F1D-A7A4-6053DC59CF13}.Release|x64.Build.0 = Release|Any CPU
 		{CCB74514-9B22-4F1D-A7A4-6053DC59CF13}.Release|x86.ActiveCfg = Release|Any CPU
 		{CCB74514-9B22-4F1D-A7A4-6053DC59CF13}.Release|x86.Build.0 = Release|Any CPU
+		{7D6700EA-4DEA-4B6F-ADC2-5AE9F27E1959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D6700EA-4DEA-4B6F-ADC2-5AE9F27E1959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D6700EA-4DEA-4B6F-ADC2-5AE9F27E1959}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7D6700EA-4DEA-4B6F-ADC2-5AE9F27E1959}.Debug|x64.Build.0 = Debug|Any CPU
+		{7D6700EA-4DEA-4B6F-ADC2-5AE9F27E1959}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7D6700EA-4DEA-4B6F-ADC2-5AE9F27E1959}.Debug|x86.Build.0 = Debug|Any CPU
+		{7D6700EA-4DEA-4B6F-ADC2-5AE9F27E1959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D6700EA-4DEA-4B6F-ADC2-5AE9F27E1959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D6700EA-4DEA-4B6F-ADC2-5AE9F27E1959}.Release|x64.ActiveCfg = Release|Any CPU
+		{7D6700EA-4DEA-4B6F-ADC2-5AE9F27E1959}.Release|x64.Build.0 = Release|Any CPU
+		{7D6700EA-4DEA-4B6F-ADC2-5AE9F27E1959}.Release|x86.ActiveCfg = Release|Any CPU
+		{7D6700EA-4DEA-4B6F-ADC2-5AE9F27E1959}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

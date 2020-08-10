@@ -4,7 +4,7 @@ using Microsoft.Extensions.Hosting;
 namespace Chris.MVCClient
 {
     /// <summary>
-    /// Interactive Applications with ASP.NET Core
+    /// Interactive Applications with ASP.NET Core && ASP.NET Core and API access
     /// </summary>
     public class Program
     {
